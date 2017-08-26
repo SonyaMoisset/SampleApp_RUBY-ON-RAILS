@@ -3,6 +3,10 @@
 
 $gray-medium-light: #eaeaea;
 
+@mixin box_sizing {
+  box-sizing: border-box;
+}
+
 body {
   padding-top: 60px;
 }
@@ -84,4 +88,12 @@ footer {
   h1 {
     margin-bottom: 10px;
   }
+}
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
 }
