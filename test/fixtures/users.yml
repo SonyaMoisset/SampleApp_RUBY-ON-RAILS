@@ -4,6 +4,7 @@ sonya:
   name: Sonya Moisset
   email: sonya.moisset@gmail.com
   password_digest: <%= User.digest('password') %>
+  admin: true
 
 jane:
   name: Jane Doe
