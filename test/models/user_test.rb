@@ -106,10 +106,10 @@ class UserTest < ActiveSupport::TestCase
   test "feed should have the right posts" do
     sonya = users(:sonya)
     jane = users(:jane)
-    john = users(:john)
+    # lana = users(:lana)
     
     # Posts from followed user
-    john.microposts.each do |post_following|
+    jane.microposts.each do |post_following|
       assert sonya.feed.include?(post_following)
     end
     
