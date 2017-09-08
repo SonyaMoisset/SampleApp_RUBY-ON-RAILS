@@ -4,7 +4,7 @@ Software-as-a-Service Ruby on Rails App
 
 This is a fictional web app where users can follow other users and write microposts
 
-This application includes ecamples of all the major features of Rails, including:
+This application includes examples of all the major features of Rails, including:
 - Models (micropost, relationship, user)
 - Views (shared, users, microposts, forms, partials)
 - Controllers (users, microposts, password resets, sessions, static pages...)
@@ -32,3 +32,15 @@ A user can add a picture in the micropost
 A user can follow/unfollow and be followed by other user 
 A user can see an other user's profile      
 An admin can delete accounts
+
+## Homepage
+![Homepage](https://github.com/SonyaMoisset/sample_app-rails/blob/master/homepage.png)
+
+## Sign up page
+![Signup](https://github.com/SonyaMoisset/sample_app-rails/blob/master/signup.png)
+
+## Log in page
+![Login](https://github.com/SonyaMoisset/sample_app-rails/blob/master/login.png)
+
+## User's profile
+![Profile](https://github.com/SonyaMoisset/sample_app-rails/blob/master/profile.png)
