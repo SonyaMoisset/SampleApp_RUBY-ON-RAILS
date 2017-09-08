@@ -44,3 +44,27 @@ An admin can delete accounts
 
 ## User's profile
 ![Profile](https://github.com/SonyaMoisset/sample_app-rails/blob/master/profile.png)
+
+## Users can update their profile info and profile picture
+![Update](https://github.com/SonyaMoisset/sample_app-rails/blob/master/update.png)
+
+## Users can create new microposts
+![Micropost](https://github.com/SonyaMoisset/sample_app-rails/blob/master/micropost.png)
+
+## Users can see who they followed
+![Following](https://github.com/SonyaMoisset/sample_app-rails/blob/master/following.png)
+
+## Users can see who are following them
+![Followers](https://github.com/SonyaMoisset/sample_app-rails/blob/master/followers.png)
+
+## Users can see a feed with all other users' microposts
+![Feed](https://github.com/SonyaMoisset/sample_app-rails/blob/master/feed.png)
+
+## Users can see a list of all users (with pagination)
+![Allusers](https://github.com/SonyaMoisset/sample_app-rails/blob/master/allusers.png)
+
+## CI/CD with CircleCI
+![circleci](https://github.com/SonyaMoisset/sample_app-rails/blob/master/circleci.png)
+
+## The App is hosted on Heroku
+![Heroku](https://github.com/SonyaMoisset/sample_app-rails/blob/master/heroku.png)
