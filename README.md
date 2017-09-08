@@ -1,41 +1,34 @@
-# Ruby on Rails Tutorial sample application
+# Sample App
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+Software-as-a-Service Ruby on Rails App
 
-## License
+This is a fictional web app where users can follow other users and write microposts
 
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+This application includes ecamples of all the major features of Rails, including:
+- Models (micropost, relationship, user)
+- Views (shared, users, microposts, forms, partials)
+- Controllers (users, microposts, password resets, sessions, static pages...)
+- Routes (GET, POST, DELETE, resources)
+- Templates
+- Partials
+- Forms
+- Filters
+- Helpers (users, account activation, microposts, relationships, sessions...)
+- Validations
+- Callbacks
+- has_many/belongs_to and has_many :through associations
+- Migrations & seeds
+- Security
+- Mailers
+- Testing (controllers, fixtures, integration, helpers, models...)
+- CI/CD with CircleCI
+- Deployment on Heroku
+- Twitter Bootstrap + Custom CSS/SASS
+- CRUD & RESTful API Rails App
 
-## Getting started
-
-To get started with the app, clone the repo and then install the needed gems:
-
-```
-$ bundle install --without production
-```
-
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
-
-```
-$ rails test
-```
-
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
-```
-
-For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+A user can create, edit, delete his/her profile      
+A user can create, edit, delete a micropost     
+A user can add a picture in the micropost     
+A user can follow/unfollow and be followed by other user 
+A user can see an other user's profile      
+An admin can delete accounts
