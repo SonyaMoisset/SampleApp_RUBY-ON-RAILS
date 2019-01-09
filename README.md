@@ -1,5 +1,7 @@
 # Sample App
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SonyaMoisset/SampleApp_RUBY-ON-RAILS.svg)](https://greenkeeper.io/)
+
 Software-as-a-Service Ruby on Rails App
 
 This is a fictional web app where users can follow other users and write microposts
