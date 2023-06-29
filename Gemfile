@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.7.3'
+gem 'rails', '6.1.7.4'
 gem 'bcrypt',                  '3.1.11'
 gem 'faker',                   '1.7.3'
 gem 'carrierwave', '2.1.1'
@@ -12,8 +12,8 @@ gem 'bootstrap-sass',          '3.4.1'
 gem 'puma', '4.3.12'
 gem 'sass-rails', '5.0.8'
 gem 'uglifier',                '4.2.0'
-gem 'coffee-rails',            '4.2.2'
-gem 'jquery-rails', '4.4.0'
+gem 'coffee-rails', '5.0.0'
+gem 'jquery-rails', '4.3.2'
 gem 'turbolinks',              '5.0.1'
 gem 'jbuilder',                '2.7.0'
 
@@ -23,7 +23,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console',           '4.0.4'
+  gem 'web-console', '3.6.0'
   gem 'listen',                '3.0.8'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
