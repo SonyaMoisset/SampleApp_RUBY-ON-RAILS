@@ -13,7 +13,7 @@ gem 'puma', '4.3.12'
 gem 'sass-rails', '5.0.8'
 gem 'uglifier',                '4.2.0'
 gem 'coffee-rails',            '4.2.2'
-gem 'jquery-rails', '4.4.0'
+gem 'jquery-rails', '4.6.0'
 gem 'turbolinks',              '5.0.1'
 gem 'jbuilder',                '2.7.0'
 
